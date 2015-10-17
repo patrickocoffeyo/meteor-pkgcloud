@@ -1,5 +1,7 @@
 Package.describe({
-  summary: 'A standard library for node.js that abstracts differences among cloud providers'
+  summary: 'A standard library for node.js that abstracts differences among cloud providers',
+  documentation: README.md',
+  git: 'https://github.com/patrickocoffeyo/meteor-pkgcloud.git'
 });
 
 Package.on_use(function(api) {
